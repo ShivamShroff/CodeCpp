@@ -1,3 +1,6 @@
+//move all the even integers at the beginning of the array followed by all the odd integers. The relative order of odd or even integers does not matter.
+
+
 #include<bits/stdc++.h>
 using namespace std;
 
@@ -41,7 +44,5 @@ int main(){
         
     }
     cout << endl;
-    cout << "yeah";
-
     return 0;
 }

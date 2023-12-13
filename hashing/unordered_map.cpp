@@ -22,7 +22,7 @@ int main(){
 
     if(umap.find(key) != umap.end()){
         auto temp = umap.find(key);
-        cout<<"key is : "<<temp->first<<endl;
+        cout<<"key is : "<<temp->first<<endl
         cout<<"value is : "<<temp->second<<endl;
     }
 
