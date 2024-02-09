@@ -1,6 +1,6 @@
 #include<bits/stdc++.h>
 using namespace std;
-
+/*
 string longCommPrefix(vector<string> &s){
     //sort the string 
     sort(s.begin(),s.end());
@@ -21,6 +21,22 @@ string longCommPrefix(vector<string> &s){
 
     }
     return ans;
+}
+*/
+
+string longCommPrefix(vector<string>str){
+    string str1 = str[0];
+    string ans ="";
+    int j=0;
+    for(int i=0; i<str.size(); i++){
+        while(j<str1.size() && j<str[i].size() && str1[j] == str[i][j]){
+            ans = str1.substr(0,j);
+            j++;
+        }
+    }
+    
+    return ans;
+
 }
 
 int main(){
