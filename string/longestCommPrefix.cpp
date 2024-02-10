@@ -38,6 +38,7 @@ string longCommPrefix(vector<string>str){
     return ans;
 
 }
+//at O(1)
 
 int main(){
     int size;
