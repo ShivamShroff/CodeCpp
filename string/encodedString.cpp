@@ -1,6 +1,9 @@
 #include<bits/stdc++.h> 
 using namespace std;  
 
+//t.c = 0(n) lenth of decoded string
+//s.c = 0(n) lenth of decoded string
+
 string encodedStr(string str){
 
     string res = "";
