@@ -1,6 +1,9 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+// input -> 1 2 0 1 0
+//output -> 1 2 1 0 0
+
 void pushZeroLast(int arr[],int n){
     int count = 0; //it will clear your confusion
     for(int i=0; i<n; i++){

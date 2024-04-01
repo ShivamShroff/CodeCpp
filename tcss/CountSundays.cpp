@@ -1,6 +1,8 @@
 #include<bits/stdc++.h>
 using namespace std;
 
+// input -> any day from a week(monday) -> no. of days given to find no. of sundays(13)
+//output -> 7 - 1 = 6(remaining days for first sunday) ------> 13 - 6 = 7 (count = 1) ----->7/7 = 1(count = 1+1= 2) 
 
 void CountSundays(string str[],int n,string s){
     //find the remaining days for first sunday

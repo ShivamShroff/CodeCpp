@@ -1,6 +1,9 @@
 #include<iostream>
 using namespace std;
 
+
+//input  ->  2 1 2 0 0
+//output ->  0 0 1 2 2 
 int main(){
     int n;
     cin >> n;
